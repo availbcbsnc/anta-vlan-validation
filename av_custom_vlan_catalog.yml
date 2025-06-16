@@ -1,4 +1,4 @@
-custom_anta_tests.av_vlan_tests:
+custom_anta_tests.interface_vlan_validation:
   - VerifyInterfaceVLANs:
       filters:
         tags: ['leaf','border-leaf']
