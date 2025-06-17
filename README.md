@@ -27,7 +27,7 @@ This test ensures that each interface defined in the input is configured with th
 - Every specified interface must be associated with all listed VLANs.
 
 ### ❌ Fail Criteria
-- Any VLAN missing from a specified interface results in failure.
+- Any VLAN missing from a specified interface results in failure. This includes partial matches.
 
 ### 🔧 Supported Interfaces
 - Ethernet interfaces
@@ -99,7 +99,7 @@ class VerifyInterfaceVLANs(AntaTest):
 ┏━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
 ┃ Device  ┃ Test Name            ┃ Test Status ┃ Message(s) ┃ Test description                                      ┃ Test category    ┃
 ┡━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
-│ A-LEAF1 │ VerifyInterfaceVLANs │ success     │            │ Verifies that specific VLANs are associated...       │ VLAN, Interfaces │
+│ A-LEAF1 │ VerifyInterfaceVLANs │ success     │            │ Verifies that specific VLANs are associated...        │ VLAN, Interfaces │
 ```
 
 ---
