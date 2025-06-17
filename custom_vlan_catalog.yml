@@ -1,0 +1,9 @@
+custom_anta_tests.vlan_tests:
+  - VerifyInterfaceVLANs:
+      filters:
+        tags: ['leaf','border-leaf']
+      interfaces:
+        #- name: Ethernet7
+        #  vlans: [10]
+        - name:  port-Channel 100
+          vlans: [ 2000,2002,4051,4093,4094]

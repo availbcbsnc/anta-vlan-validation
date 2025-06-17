@@ -1,0 +1,108 @@
+anta_inventory:
+  hosts:
+  # - host: 192.168.0.11
+  #   name: A-SPINE1
+  # - host: 192.168.0.12
+  #   name: A-SPINE2
+  # - host: 192.168.0.13
+  #   name: A-SPINE3
+  # - host: 192.168.0.14
+  #   name: A-SPINE4
+  - host: 10.18.130.116
+    name: A-LEAF1
+    tags: ['leaf']
+  - host: 10.18.129.72
+    name: A-LEAF2
+    tags: ['leaf']
+  - host: 10.18.130.199
+    name: A-LEAF3
+    tags: ['leaf']
+  - host: 10.18.130.190
+    name: A-LEAF4
+    tags: ['leaf']
+  - host: 10.18.130.127
+    name: A-LEAF5
+    tags: ['leaf']
+  - host: 10.18.128.40
+    name: A-LEAF6
+    tags: ['leaf']
+  - host: 10.18.130.177
+    name: A-LEAF7
+    tags: ['leaf']
+  - host: 10.18.129.3
+    name: A-LEAF8
+    tags: ['leaf']
+  # - host: 192.168.0.15
+  #   name: B-SPINE1
+  # - host: 192.168.0.16
+  #   name: B-SPINE2
+  # - host: 192.168.0.17
+  #   name: B-SPINE3
+  # - host: 192.168.0.18
+  #   name: B-SPINE4
+  # - host: 192.168.0.111
+  #   name: B-LEAF1
+  # - host: 192.168.0.112
+  #   name: B-LEAF2
+  # - host: 192.168.0.113
+  #   name: B-LEAF3
+  # - host: 192.168.0.114
+  #   name: B-LEAF4
+  # - host: 192.168.0.115
+  #   name: B-LEAF5
+  # - host: 192.168.0.116
+  #   name: B-LEAF6
+  # - host: 192.168.0.117
+  #   name: B-LEAF7
+  # - host: 192.168.0.118
+  #   name: B-LEAF8
+  # - host: 192.168.0.119
+  #   name: B-SW1
+  # - host: 192.168.0.19
+  #   name: C-SPINE1
+  # - host: 192.168.0.20
+  #   name: C-SPINE2
+  # - host: 192.168.0.121
+  #   name: C-LEAF1
+  # - host: 192.168.0.122
+  #   name: C-LEAF2
+  # - host: 192.168.0.123
+  #   name: C-LEAF3
+  # - host: 192.168.0.124
+  #   name: C-LEAF4
+  # - host: 192.168.0.125
+  #   name: C-LEAF5
+  # - host: 192.168.0.126
+  #   name: C-LEAF6
+  # - host: 192.168.0.127
+  #   name: C-LEAF7
+  # - host: 192.168.0.128
+  #   name: C-LEAF8
+  # - host: 192.168.0.21
+  #   name: D-SPINE1
+  # - host: 192.168.0.22
+  #   name: D-SPINE2
+  # - host: 192.168.0.23
+  #   name: D-SPINE3
+  # - host: 192.168.0.24
+  #   name: D-SPINE4
+  # - host: 192.168.0.129
+  #   name: D-LEAF1
+  # - host: 192.168.0.130
+  #   name: D-LEAF2
+  # - host: 192.168.0.131
+  #   name: D-LEAF3
+  # - host: 192.168.0.132
+  #   name: D-LEAF4
+  # - host: 192.168.0.133
+  #   name: D-LEAF5
+  # - host: 192.168.0.134
+  #   name: D-LEAF6
+  # - host: 192.168.0.135
+  #   name: D-LEAF7
+  # - host: 192.168.0.136
+  #   name: D-LEAF8
+  # - host: 192.168.0.9
+  #   name: BB1
+  # - host: 192.168.0.10
+  #   name: BB2
