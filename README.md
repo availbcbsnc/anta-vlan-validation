@@ -63,6 +63,11 @@ pip install -e .
 ```bash
 export PYTHONPATH=$PYTHONPATH:$(pwd)/custom_anta_tests
 ```
+Alternatively you can try this on windows after opening the current working directory in VS Code
+```bash
+$env:PYTHONPATH="$env:PYTHONPATH;$pwd"
+```
+
 
 ### 3. Run the test
 ```bash
